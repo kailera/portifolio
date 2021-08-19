@@ -1,0 +1,8 @@
+.border-gradient {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+  }
+  .border-gradient-primary {
+    border-image-source: linear-gradient(to left,#5E19A7, #F22186);
+  }

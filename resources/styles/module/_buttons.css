@@ -1,0 +1,35 @@
+.btn{
+ width: var(--p1) *1.21;
+ 
+ font-size: 1.23em;
+ border: none;
+ border-radius: 1px;
+ margin: var(--m3);
+ display: flex;
+ justify-content: center;
+ letter-spacing: 4px;
+ color: white;
+ text-transform: uppercase;
+ font-family: var(--fffouth);
+ background-color: var(--primary-color);
+ transition: 0.5s;   
+}
+
+.btn-small{
+    padding: 20px;
+}
+
+.btn-med{
+    padding: var(--p2);
+}
+
+.btn-large{
+    padding: var(--p1);
+}
+
+.btn:hover{
+    color: white;
+    letter-spacing: 8px;
+    background-color: var(--secondary-color);
+}
+

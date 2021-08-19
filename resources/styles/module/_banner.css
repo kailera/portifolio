@@ -1,0 +1,37 @@
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(49,74,102);
+    background: linear-gradient(172deg, rgba(49,74,102,1) 6%, rgba(65,18,101,1) 54%, rgba(117,16,65,1) 96%);
+}
+
+.banner .content{
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .content h2{
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    font-family: var(--ffsecondary);
+}
+
+.banner .content p{
+    font-family: var(--ffthirdh);
+}
+
+@media screen and (max-width:375px) {
+    .banner .content{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+}

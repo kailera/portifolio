@@ -1,0 +1,97 @@
+/*
+fontes: 
+Righteous - logo
+Bebas Neue - NAVBAR
+Roboto - texto geral
+MAVEM PRO - DISPLAY TITLES
+
+
+*/
+
+html, body, div, span, applet, object, iframe, table, caption,
+tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    scroll-behavior: smooth;
+    
+}
+:focus {
+    outline: 0;
+}
+body {
+    line-height: 1;
+    color: black;
+}
+ol, ul {
+    list-style: none;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+
+
+
+:root{
+    --primary-color:#5E19A7;
+    --secondary-color:#F22186;
+
+    --p1: 2.223em;
+    --p2:1.913em;
+    --p3:30px;
+    --p4:20px;
+    --p5:10px;
+
+    --m1:2rem;
+    --m2:1.5rem;
+    --m3:1rem;
+    --m4:0.975rem;
+    --m5:0.775rem;
+
+    --fw1:100;
+    --fw2:300;
+    --fw3:500;
+    --fw4:700;
+
+    --ffprimary:'Righteous', cursive;
+    --ffsecondary:'Bebas Neue', cursive;
+    --ffthirdh:'Roboto', sans-serif;
+    --fffouth:'Maven Pro', sans-serif;
+
+    --s1:.899rem;
+    --s2:1.45rem;
+    --s3:3.1rem;
+    --s4:4.13rem;
+    --s5:5.5rem;
+}

@@ -1,0 +1,41 @@
+
+.text-box{
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.text-titles{
+    margin-top: 10px;
+    font-family: var(--ffprimary);
+    color: black;
+    letter-spacing: 2px;
+}
+
+.text-descriptions{
+    margin-top: 7px;
+    font-weight: bolder;
+    font-family: var(--ffsecondary);
+    color: rgb(36, 33, 33);
+    letter-spacing: 1px;
+}
+
+.text-simple{
+    font-family: var(--ffthirdh);
+    font-weight: bold;
+    align-self: center;
+    font-style: italic;
+}
+
+.text-small{
+    font-size: 0.6rem;
+}
+
+.text-medium{
+    font-size:1.8rem;
+}
+
+.text-large{
+    font-size: 2.7rem;
+}
+
