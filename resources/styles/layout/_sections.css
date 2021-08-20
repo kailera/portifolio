@@ -6,11 +6,12 @@
     margin-top: var(--m2);
     display: flex;
     justify-content: space-around;
-    
+    transition: .3s;
 
 }
 
 .show-articles-img{
+    padding: var(--p5);
     width: 300px;
 }
 
@@ -20,7 +21,7 @@
 
 
 .show-articles-body{
-
+    padding: var(--p5);
     font-family: var(--ffsecondary);
     
 }
@@ -48,7 +49,6 @@
 @media screen and (max-width:768px) {
     .show-articles{
         align-self: center;
-        width: 300px;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;

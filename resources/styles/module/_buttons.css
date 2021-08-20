@@ -16,7 +16,7 @@
 }
 
 .btn-small{
-    padding: 20px;
+    padding: var(--p5) 15px;
 }
 
 .btn-med{
